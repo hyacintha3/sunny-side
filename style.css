@@ -1,0 +1,227 @@
+html,body{ 
+    margin: 0px;
+    height: 800px; 
+    width: 100% ;  
+
+}
+header{
+    background: url('image-header.jpg') no-repeat center center/cover; 
+     height: 120vh;
+     width: 100%; 
+}
+div.first-row{
+    display: flex;
+
+}
+.first-row ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    margin-left: 500px; 
+}
+.first-row ul li{
+    font-family: century;
+}
+.first-row ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 1px 25px; 
+    float: right;
+}
+h4{
+    color:white;
+
+}
+h3{
+    color: white;
+    margin-top: 200px;
+    margin-left:550px;
+    font-family: 'Fraunces', serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+    background-color:white;
+    height: 400px;
+    width: 600px;
+    margin-right:0px;
+
+    }
+  .box1 h2{
+    padding-top:100px;
+    padding-left: 50px;
+  }
+  .box1 p{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .box1 a{
+    padding-left: 25px;
+  }
+  .box2{
+    background-image: url(image-transform.jpg);
+    height: 400px;
+    width: 600px;
+    margin-left: 0px;
+  }
+  .containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box3{
+    background-image: url(image-stand-out.jpg);
+    height: 400px;
+    width: 600px;
+    margin-right: 0px;
+  }
+  .box4{
+    background-image:white;
+    height: 400px;
+    width: 600px;
+    margin-left: 0px;
+  }
+  .box4 h2{
+    padding-top:100px;
+    padding-left: 50px;
+  }
+  .box4 p{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .box4 a{
+    padding-left: 25px;
+  }
+  .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box5{
+    background-image:url(image-graphic-design.jpg);
+    height: 400px;
+    width: 600px;
+    margin-right:0px;
+  }
+  .box5 h2{
+    padding-top:240px;
+    padding-left: 50px;
+  }
+  .box5 p{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .box5 a{
+    padding-left: 25px;
+  }
+  .box6{
+    background-image: url(image-photography.jpg);
+    height: 400px;
+    width: 600px;
+    margin-left: 0px;
+  }
+  .box6 h2{
+    padding-top:240px;
+    padding-left: 50px;
+  }
+  .box6 p{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .contai {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 4px;
+  }
+   /* .bx1{
+border-radius: 40px; 
+   }  */
+   img{
+border-radius: 40px;
+height: 40px;
+width: 40px;
+margin-left: 100px;
+   }
+   .conta h2{
+    text-align: center;
+    color: rgb(87, 84, 84);
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+   .cont{
+    /* height:70vh; */
+    width:100%;
+    display: flex;
+    flex-direction:row;
+
+   }
+
+#p0{
+  background-image:url(image-gallery-milkbottles.jpg) ;
+  background-size:cover;
+  height:60vh;
+  width:35%;
+
+}
+#p2{
+  background-image:url(image-gallery-orange.jpg) ;
+  background-size:cover;
+  height:60vh;
+  width: 35%;
+
+}
+#p3{
+  background-image:url(image-gallery-cone.jpg) ;
+  background-size:cover;
+  height: 60vh;
+  width: 35%;
+
+}
+#p4{
+  background-image:url(image-gallery-sugar-cubes.jpg) ;
+  background-size:cover;
+  height: 60vh;
+  width: 35%;
+
+}
+.con{
+  height: 20px;
+}
+#icon{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 650px;
+}
+.end{
+  background-color: hsl(168,34%, 41%);
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  justify-content: space-between;
+}
+.end p{
+  margin-left: 500px;
+  color: rgb(20,43,20);
+  font-family: 'barlow',sans-serif;
+  font-family: 'fraunces',serif;
+  text-align: center;
+  padding-top: 40px;
+}
+.end ul{
+  display: flex;
+  float: right;
+  margin-right: 400px;
+  list-style-type: none;
+  
+}
+.end ul li a{
+  margin-left: 40px;
+  color: rgb(20,43,20);
+  text-decoration: none;
+  margin-right: 40px;
+}
